@@ -11,7 +11,7 @@ using DBCodeFirst.Models;
 namespace DBCodeFirst.Controllers
 {
     [ApiController]
-    [Route("[controler]")]
+    [Route("[controller]")]
     public class StudentsController : Controller
     {
         private readonly DBCodeFirstContext _context;
